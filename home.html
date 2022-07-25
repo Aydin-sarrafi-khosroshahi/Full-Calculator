@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Clinick Mobile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+    <meta content="Coderthemes" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- page favicon -->
+    <link rel="shortcut icon" href="dist/images/favicon/download.png">
+
+    <!-- bootstrap css -->
+    <link href="dist/libs/bootstrap/css/bootstrap.rtl.min.css" rel="stylesheet" type="text/css">
+
+    <!-- swiper css -->
+    <link href="dist/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css">
+
+    <!--  Custom  -->
+    <link href="dist/css/template.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<!-- body start -->
+
+<body>
+
+    <!-- start container fluid -->
+    <div class="container-fluid px-0 overflow-hidden">
+        <!-- header && menu  !!!!!!!!!! -->
+        <div class="mj-ay-main-header position-relative">
+            <div class="container">
+                <!-- menu more than 576px && brand !!!!!!!!!!! -->
+                <div class="d-flex align-items-center justify-content-between pt-4 mj-ay-header-content">
+                    <!-- menu toggeler -->
+                    <button id="mj-ay-menu-toggeler"
+                        class="d-sm-none border-0 bg-transparent outline-none d-flex align-items-center mj-ay-menu-toggeler">
+                        <img class="w-100 h-100" src="dist/images/main-page-images/menu.svg" alt="">
+                    </button>
+                    <!-- menu -->
+                    <ul class="d-none d-sm-inline-block my-0 ms-2 list-inline">
+                        <li class="list-inline-item me-5 mj-ay-menu-list">
+                            <a class="text-white text-bold1 font-16" href="#">خانه</a>
+                        </li>
+                        <li class="list-inline-item me-5 mj-ay-menu-list">
+                            <a class="text-white text-bold1 font-16" href="#">خدمات</a>
+                        </li>
+                        <li class="list-inline-item me-5 mj-ay-menu-list">
+                            <a class="text-white text-bold1 font-16" href="#">تعمیرات</a>
+                        </li>
+                        <li class="list-inline-item me-5 mj-ay-menu-list">
+                            <a class="text-white text-bold1 font-16" href="#">پشتیبانی</a>
+                        </li>
+                    </ul>
+                    <!-- brand -->
+                    <div class="me-2 text-end">
+                        <a class="font-20 text-white text-bold2" href="#">
+                            Clinick Mobile
+                        </a>
+                        <p class="font-12 text-white me-1">
+                            repair , lcc
+                        </p>
+                    </div>
+                </div>
+                <!-- header-content && img  !!!!!!!!!! -->
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="mj-ay-header-content-res">
+                            <h1 class="header-title mb-3 text-white font-28">
+                                ایا گوشی تان شکسته ؟!
+                            </h1>
+                            <p class="mb-5 font-14 mj-ay-content-p text-white">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده ازو مجله در ستون
+                                و سطرآنچنان که لازم است
+                            </p>
+                            <a class="d-flex align-items-center justify-content-between mj-ay-book-now" href="#">
+                                <div class="mj-ay-book-now-content text-bold2">
+                                    الان رزرو کن
+                                    <p class="mb-0 text-bold font-12">
+                                        لورم ایپسوم متن
+                                    </p>
+                                </div>
+                                <img src="dist/images/main-page-images/arrow-left.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 mj-ay-header-img">
+                        <img class="w-100" src="dist/images/main-page-images/mobile2.png" alt="">
+                    </div>
+                </div>
+                <!-- social media -->
+                <div
+                    class="d-none d-sm-flex align-items-center justify-content-center flex-column mj-ay-header-social-media">
+                    <p class="font-18 text-white">
+                        Social Media
+                    </p>
+                    <ul class="m-0 p-0">
+                        <li class="mj-ay-header-social-media-list">
+                            <a href="#">
+                                <img src="dist/images/main-page-images/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mj-ay-header-social-media-list">
+                            <a href="#">
+                                <img src="dist/images/main-page-images/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mj-ay-header-social-media-list">
+                            <a href="#">
+                                <img src="dist/images/main-page-images/twitter.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- menu less then 576 px -->
+            <div class="mj-ay-menu-opacity" id="mj-ay-menu-opacity">
+                <div class="mj-ay-menu-bg position-relative shadow" id="mj-ay-menu-bg">
+
+                    <div class="d-flex align-items-start justify-content-between mb-5 px-3 pt-3">
+                        <button id="Closebtn"
+                            class="mj-ay-menu-times border-0 bg-transparent outline-none d-flex align-items-center">
+                            <img class="w-100 h-100" src="dist/images/main-page-images/x.svg" alt="">
+                        </button>
+                        <div class="text-end">
+                            <a class="font-20 text-dark text-bold2" href="#">
+                                Clinick Mobile
+                            </a>
+                            <p class="font-12 text-dark me-1">
+                                repair , lcc
+                            </p>
+                        </div>
+                    </div>
+
+                    <ul class="text-center m-0 p-0 mb-5">
+                        <li class="">
+                            <a class="mj-ay-rightSide-links w-100 py-3 font-16 text-dark" href="">خانه</a>
+                        </li>
+                        <li class="">
+                            <a class="mj-ay-rightSide-links w-100 py-3 font-16 text-dark" href="">خدمات</a>
+                        </li>
+                        <li class="">
+                            <a class="mj-ay-rightSide-links w-100 py-3 font-16 text-dark" href="">تعمیرات</a>
+                        </li>
+                        <li class="">
+                            <a class="mj-ay-rightSide-links w-100 py-3 font-16 text-dark" href="">پشتیبانی</a>
+                        </li>
+                    </ul>
+
+                    <ul class="p-0 m-0 d-flex align-items-center justify-content-center">
+                        <li class="mj-ay-rightSide-social-icons me-2">
+                            <a href="">
+                                <img class="" src="dist/images/main-page-images/instagram.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mj-ay-rightSide-social-icons me-2">
+                            <a href="">
+                                <img class="" src="dist/images/main-page-images/twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mj-ay-rightSide-social-icons me-2">
+                            <a href="">
+                                <img class="" src="dist/images/main-page-images/facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li class="mj-ay-rightSide-social-icons me-2">
+                            <a href="">
+                                <img class="" src="dist/images/main-page-images/linkedin.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- slider part -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="d-none d-lg-block position-relative">
+                        <div class="mj-ay-top-content">
+                            <h1 class="header-title mb-2 font-20 text-bold2 text-dark text-start">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                            </h1>
+                            <p class="mb-2 font-12 text-justify">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center flex-column d-lg-none position-relative mt-5">
+                        <h1
+                            class="mj-ay-section-header position-relative header-title mb-2 font-20 text-bold2 text-dark text-start pb-5">
+                            لورم ایپسوم متن ساختگی
+                        </h1>
+                        <p class="mb-2 font-12 text-justify">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                            است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        </p>
+                    </div>
+
+                    <div class="d-none d-lg-block mj-ay-top-content-img">
+                        <img class="w-100 h-100 rounded" src="dist/images/main-page-images/img6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="mj-ay-top-content-slider">
+                        <!-- slider -->
+                        <div class="swiper mj-ay-top-content-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <img class="mj-ay-top-slider-img w-100 mb-3"
+                                                src="dist/images/main-page-images/img2.jpg" alt="">
+                                            <h2 class="header-title mb-3 font-16 text-bold2">
+                                                لورم ایپسوم
+                                            </h2>
+                                            <p class="font-12 mb-2 text-secondary text-justify">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                                از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است
+                                            </p>
+                                            <a href="" class="text-dark font-12 d-flex align-items-center">
+                                                رزرو کن
+                                                <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <img class="mj-ay-top-slider-img w-100 mb-3"
+                                                src="dist/images/main-page-images/img-5.jpg" alt="">
+                                            <h2 class="header-title mb-3 font-16 text-bold2">
+                                                لورم ایپسوم
+                                            </h2>
+                                            <p class="font-12 mb-2 text-secondary text-justify">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                                از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است
+                                            </p>
+                                            <a href="" class="text-dark font-12 d-flex align-items-center">
+                                                رزرو کن
+                                                <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <img class="mj-ay-top-slider-img w-100 mb-3"
+                                                src="dist/images/main-page-images/img2.jpg" alt="">
+                                            <h2 class="header-title mb-3 font-16 text-bold2">
+                                                لورم ایپسوم
+                                            </h2>
+                                            <p class="font-12 mb-2 text-secondary text-justify">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                                از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است
+                                            </p>
+                                            <a href="" class="text-dark font-12 d-flex align-items-center">
+                                                رزرو کن
+                                                <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <img class="mj-ay-top-slider-img w-100 mb-3"
+                                                src="dist/images/main-page-images/img-5.jpg" alt="">
+                                            <h2 class="header-title mb-3 font-16 text-bold2">
+                                                لورم ایپسوم
+                                            </h2>
+                                            <p class="font-12 mb-2 text-secondary text-justify">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                                از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است
+                                            </p>
+                                            <a href="" class="text-dark font-12 d-flex align-items-center">
+                                                رزرو کن
+                                                <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card border-0">
+                                        <div class="card-body">
+                                            <img class="mj-ay-top-slider-img w-100 mb-3"
+                                                src="dist/images/main-page-images/img2.jpg" alt="">
+                                            <h2 class="header-title mb-3 font-16 text-bold2">
+                                                لورم ایپسوم
+                                            </h2>
+                                            <p class="font-12 mb-2 text-secondary text-justify">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده
+                                                از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                                                سطرآنچنان که لازم است
+                                            </p>
+                                            <a href="" class="text-dark font-12 d-flex align-items-center">
+                                                رزرو کن
+                                                <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg"
+                                                    alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- todo position -->
+                <div class="col-lg-6">
+                    <div class="mj-ay-plus-bg">
+                        <img src="dist/images/main-page-images/web3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="position-relative mt-5 d-flex align-items-center flex-column">
+                        <h1
+                            class="mj-ay-section-header position-relative header-title mb-2 font-20 text-bold2 text-dark text-start pb-5">
+                            لورم ایپسوم متن ساختگی
+                        </h1>
+                        <p class="mb-2 font-12 text-justify">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                            است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mj-ay-plus-margin">
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mj-ay-section2">
+                                <img class="w-100 mb-2" src="dist/images/main-page-images/web2.png" alt="">
+                                <div class="position-relative mj-ay-section2-line">
+                                    <h3 class="mb-2 header-title font-16 text-darl text-bold2">
+                                        لورم ایپسوم
+                                    </h3>
+                                    <p class="mb-2 font-14 text-secondary text-justify">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                                    </p>
+                                </div>
+                                <a href="" class="text-dark font-12 d-flex align-items-center">
+                                    رزرو کن
+                                    <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mj-ay-section2">
+                                <img class="w-100 mb-2" src="dist/images/main-page-images/web2.png" alt="">
+                                <div class="position-relative mj-ay-section2-line">
+                                    <h3 class="mb-2 header-title font-16 text-darl text-bold2">
+                                        لورم ایپسوم
+                                    </h3>
+                                    <p class="mb-2 font-14 text-secondary text-justify">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                                    </p>
+                                </div>
+                                <a href="" class="text-dark font-12 d-flex align-items-center">
+                                    رزرو کن
+                                    <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="mj-ay-section2">
+                                <img class="w-100 mb-2" src="dist/images/main-page-images/web2.png" alt="">
+                                <div class="">
+                                    <h3 class="mb-2 header-title font-16 text-darl text-bold2">
+                                        لورم ایپسوم
+                                    </h3>
+                                    <p class="mb-2 font-14 text-secondary text-justify">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان
+                                        گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                                    </p>
+                                </div>
+                                <a href="" class="text-dark font-12 d-flex align-items-center">
+                                    رزرو کن
+                                    <img class="ms-2" src="dist/images/main-page-images/arrow-left.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row mt-5 mj-ay-section3">
+            <div class="col-12">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between flex-wrap py-2">
+                        <p class="text-white text-bold1 font-16 mb-0 text-justify">
+                            لورم ایپسوم متن ساختگی با تولید
+                            <span class="font-18 text-underlined px-1">125000000</span>سادگی نامفهوم از صنعت چاپ و با
+                            استفاده از طراحان گرافیک است.
+                        </p>
+                        <a class="text-dark font-14 bg-white px-3 py-2 my-3 shadow" href="#">
+                            شروع کن الان
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mj-ay-section4-bg">
+            <div class="col-12">
+                <div class="container">
+                    <div class="d-flex mj-ay-section4">
+                        <div class="w-100 position-relative my-3">
+                            <h4 class="mb-5 header-title font-18 text-bold2 text-dark">
+                                لورم ایپسوم متن ساختگی
+                            </h4>
+                            <p class="mb-3 font-14 text-secondary text-justify pe-4">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان
+                                گرافیک
+                                است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+                                شرایط
+                                فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می
+                                طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان
+                                خلاقی، و
+
+                            </p>
+                            <p class="pb-5 font-14 text-secondary text-justify pe-4">
+                                فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+                                موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
+                                حروفچینی
+                                دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده
+                                قرار
+                                گیرد.
+                            </p>
+                            <button class="w-100 mj-ay-section4-btn border-0">
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center">
+                                        <div class="me-2 bg-white p-3 rounded-circle">
+                                            <img src="dist/images/main-page-images/phone-call.svg" alt="">
+                                        </div>
+                                        <div class="ms-3">
+                                            <p class="font-12 mb-2 text-dark">
+                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                            </p>
+                                            <p class="mb-2 font-16 text-bold2 text-dark">
+                                                888.333.000
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+
+                        <div class="w-100 position-relative mj-ay-section4-img my-3">
+                            <img class="h-100" src="dist/images/main-page-images/img-5.jpg" alt="">
+                            <div class="mj-ay-video-play">
+                                <img src="dist/images/main-page-images/play.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="mj-ay-section5-margin position-relative">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="position-relative mt-5 mj-ay-section5-res-format">
+                            <h1
+                                class="mj-ay-section-header position-relative header-title mb-2 font-20 text-bold2 text-dark text-start pb-5">
+                                لورم ایپسوم متن ساختگی
+                            </h1>
+                            <p class="mb-2 font-12 text-justify mj-ay-headers-p">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card mj-ay-card-scale-hover">
+                            <div class="card-body text-center">
+                                <div class="position-relative mb-4">
+                                    <img class="mj-ay-section5-content-img" src="dist/images/main-page-images/img-5.jpg"
+                                        alt="">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center rounded-circle mj-ay-number-span">
+                                        <span>1</span>
+                                    </div>
+                                </div>
+                                <h5 class="header-title text-bold1 font-16 text-dark mb-2">
+                                    لورم ایپسوم متن ساختگی
+                                </h5>
+                                <p class="text-secondary font-12 mb-2">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card mj-ay-card-scale-hover">
+                            <div class="card-body text-center">
+                                <div class="position-relative mb-4">
+                                    <img class="mj-ay-section5-content-img" src="dist/images/main-page-images/img-5.jpg"
+                                        alt="">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center rounded-circle mj-ay-number-span">
+                                        <span>2</span>
+                                    </div>
+                                </div>
+                                <h5 class="header-title text-bold1 font-16 text-dark mb-2">
+                                    لورم ایپسوم متن ساختگی
+                                </h5>
+                                <p class="text-secondary font-12 mb-2">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card mj-ay-card-scale-hover">
+                            <div class="card-body text-center">
+                                <div class="position-relative mb-4">
+                                    <img class="mj-ay-section5-content-img" src="dist/images/main-page-images/img-5.jpg"
+                                        alt="">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center rounded-circle mj-ay-number-span">
+                                        <span>3</span>
+                                    </div>
+                                </div>
+                                <h5 class="header-title text-bold1 font-16 text-dark mb-2">
+                                    لورم ایپسوم متن ساختگی
+                                </h5>
+                                <p class="text-secondary font-12 mb-2">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card mj-ay-card-scale-hover">
+                            <div class="card-body text-center">
+                                <div class="position-relative mb-4">
+                                    <img class="mj-ay-section5-content-img" src="dist/images/main-page-images/img-5.jpg"
+                                        alt="">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center rounded-circle mj-ay-number-span">
+                                        <span>4</span>
+                                    </div>
+                                </div>
+                                <h5 class="header-title text-bold1 font-16 text-dark mb-2">
+                                    لورم ایپسوم متن ساختگی
+                                </h5>
+                                <p class="text-secondary font-12 mb-2">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- position img -->
+                <div class="d-none d-lg-block mj-ay-section5-pos-img">
+                    <img class="w-100 h-100" src="dist/images/main-page-images/img10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!--  1  clip path bg part -->
+        <div class="mj-ay-section6-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div
+                            class="position-relative mt-5 text-center  d-flex align-items-center justify-content-center flex-column">
+                            <h1
+                                class="mj-ay-section-header position-relative header-title mb-2 font-20 text-bold2 text-dark text-start pb-5">
+                                لورم ایپسوم متن ساختگی
+                            </h1>
+                            <p class="mb-2 font-12 text-justify">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mj-ay-section-6-magin">
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card-body mj-ay-section-6-res-margin">
+                            <div class="d-flex align-items-center flex-column">
+                                <div class="shadow position-relative mj-ay-section-6 mb-5">
+                                    <img class="mj-ay-section-6-img" src="dist/images/main-page-images/web6.png" alt="">
+                                    <div class="mj-ay-what-costumers-says-play">
+                                        <img class="mj-ay-convert-svg-color" src="dist/images/main-page-images/play.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p class="mb-2 font-14 text-dark text-justify">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card-body mj-ay-section-6-res-margin">
+                            <div class="d-flex align-items-center flex-column">
+                                <div class="shadow position-relative mj-ay-section-6 mb-5">
+                                    <img class="mj-ay-section-6-img" src="dist/images/main-page-images/web6.png" alt="">
+                                    <div class="mj-ay-what-costumers-says-play">
+                                        <img class="mj-ay-convert-svg-color" src="dist/images/main-page-images/play.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p class="mb-2 font-14 text-dark text-justify">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card-body mj-ay-section-6-res-margin">
+                            <div class="d-flex align-items-center flex-column">
+                                <div class="shadow position-relative mj-ay-section-6 mb-5">
+                                    <img class="mj-ay-section-6-img" src="dist/images/main-page-images/web6.png" alt="">
+                                    <div class="mj-ay-what-costumers-says-play">
+                                        <img class="mj-ay-convert-svg-color" src="dist/images/main-page-images/play.svg"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <p class="mb-2 font-14 text-dark text-justify">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--  2  clip path bg part -->
+        <div class="mj-ay-section7-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="position-relative d-flex align-items-center justify-content-center flex-column">
+                            <h1
+                                class="mj-ay-section-7-header position-relative header-title mb-2 font-20 text-bold2 text-white text-start pb-5">
+                                لورم ایپسوم متن ساختگی
+                            </h1>
+                            <p class="mb-2 font-12 text-justify text-white">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 mb-3">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="border-bottom border-white d-flex align-items-center my-3 pb-1">
+                            <label class="text-white font-14 white-space-nowrap" for="">
+                                نام و نام خانوادگی
+                            </label>
+                            <input class="ms-3 bg-transparent border-0 outline-none text-white w-100" type="text"
+                                placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="border-bottom border-white d-flex align-items-center my-3 pb-1">
+                            <label class="text-white font-14 white-space-nowrap" for="">
+                                ایمیل
+                            </label>
+                            <input class="ms-3 bg-transparent border-0 outline-none text-white w-100" type="text"
+                                placeholder="">
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="border-bottom border-white d-flex align-items-center my-3 pb-1">
+                            <label class="text-white font-14 white-space-nowrap" for="">
+                                شماره همراه
+                            </label>
+                            <input class="ms-3 bg-transparent border-0 outline-none text-white w-100" type="text"
+                                placeholder="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="border-bottom border-white d-flex align-items-center my-3 pb-1">
+                            <label class="text-white font-14 white-space-nowrap" for="">
+                                شماره همراه
+                            </label>
+                            <textarea rows="1" cols="50"
+                                class="ms-3 text-white bg-transparent w-100 outline-none border-0" placeholder="">
+
+                            </textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="w-100 d-flex align-items-center justify-content-center mt-4 shadow-none">
+                            <button class="mj-at-send-btn btn border border-white bg-transparent text-white font-16 px-5">
+                                ارسال
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="mj-ay-fooer-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card-body">
+                            <div class="mb-3 pb-1 border-bottom border-color">
+                                <h6 class="header-title font-16 text-white text-bold1">
+                                    دربار ما
+                                </h6>
+                            </div>
+                            <p class="text-white text-justify font-14 mb-3">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است
+                                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                            </p>
+                            <ul class="p-0 m-0 d-flex align-items-center">
+                                <li class="mj-ayfooter-social-icons me-2">
+                                    <a href="">
+                                        <img class="" src="dist/images/main-page-images/instagram.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="mj-ayfooter-social-icons me-2">
+                                    <a href="">
+                                        <img class="" src="dist/images/main-page-images/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="mj-ayfooter-social-icons me-2">
+                                    <a href="">
+                                        <img class="" src="dist/images/main-page-images/facebook.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="mj-ayfooter-social-icons me-2">
+                                    <a href="">
+                                        <img class="" src="dist/images/main-page-images/linkedin.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="card-body">
+                            <div class="mb-3 pb-1 border-bottom border-color">
+                                <h6 class="header-title font-16 text-white text-bold1">
+                                    لینک ها
+                                </h6>
+                            </div>
+                            <ul class="d-flex justify-content-start flex-column p-0 m-0">
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        خانه
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        درباره ما
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        تماس با ما
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        بلاگ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6">
+                        <div class="card-body">
+                            <div class="mb-3 pb-1 border-bottom border-color">
+                                <h6 class="header-title font-16 text-white text-bold1">
+                                    لینک ها
+                                </h6>
+                            </div>
+                            <ul class="d-flex justify-content-start flex-column p-0 m-0">
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        خانه
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        درباره ما
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        تماس با ما
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a class="text-white font-14" href="">
+                                        بلاگ
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card-body">
+                            <div class="mb-3 pb-1 border-bottom border-color">
+                                <h6 class="header-title font-16 text-white text-bold1">
+                                    تماس با ما
+                                </h6>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <p class="font-14 text-secondary mb-0">
+                                    شعبه اصلی :
+                                </p>
+                                <a href="#" class="font-14 text-white ms-2">
+                                    0914 - 584 - 3333
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center mb-4">
+                                <p class="font-14 text-secondary mb-0">
+                                    شعبه دوم :
+                                </p>
+                                <a href="#" class="font-14 text-white ms-2">
+                                    0914 - 584 - 4444
+                                </a>
+                            </div>
+                            <p class="font-14 text-white mb-0 text-justify">
+                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                                است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- copy right -->
+        <div class="row mj-ay-copy-right-bg">
+            <div class="col-12">
+                <div class="d-flex align-items-center justify-content-center p-2">
+                    <p class="mb-0 text-white text-center">
+                        Copyright © 2020 TJavan.com All Right Reserved.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<!-- jquery js -->
+<script src="dist/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<!-- bootstrap js -->
+<script src="dist/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- swiper js -->
+<script src="dist/libs/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- custom js -->
+<script src="dist/js/script.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mj-ay-top-content-swiper", {
+        slidesPerView: 4,
+        spaceBetween: 1,
+        slidesPerGroup: 1,
+        loopFillGroupWithBlank: true,
+        breakpoints: {
+            1300: {
+                slidesPerView: 4,
+            },
+            992: {
+                slidesPerView: 4,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            540: {
+                slidesPerView: 2,
+            },
+            320: {
+                slidesPerView: 1,
+            },
+        }
+    });
+</script>
+
+</html>
