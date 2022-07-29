@@ -1,5 +1,6 @@
 const dis1El = document.querySelector('.display-1');
 const dis2El = document.querySelector('.display-2');
+dis2El.innerText = '0';
 
 const operationsEl = document.querySelectorAll('.opeartion');
 const numbersEl = document.querySelectorAll('.number');
@@ -52,6 +53,7 @@ function clerVar(name = '') {
     dis2Num = '';
 }
 
+// math operations
 function mathOperation() {
     if (lastOperation === '*') {
         result = parseFloat(result) * parseFloat(dis2Num);
@@ -70,13 +72,23 @@ function mathOperation() {
     }
 }
 
-
-equalEl.addEventListener('click' , (e)=>{
-    if( !dis1Num || !dis2Num ) return;
+// equal btn
+equalEl.addEventListener('click', (e) => {
+    if (!dis1Num || !dis2Num) return;
     haveDot = false;
     mathOperation();
     clerVar();
     dis2El.innerText = result;
     dis2Num = result;
     dis1Num = '';
+})
+// clear all btn
+clearAllEl.addEventListener('click', (e) => {
+    dis1El.innerText = '';
+    dis2El.innerText = '0';
+})
+
+// clear last btn
+clearLastEl.addEventListener('click', (e) => {
+    dis2El.innerText = dis2El.innerText.substring(0, dis2El.innerText.length - 1);
 })
